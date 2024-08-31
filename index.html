@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="cover-container">
+            <img id="cover-image" src="Screenshot 2024-08-07 213732.png" alt="Album Cover">
+           
+        </div>
+        <audio id="audio-player" src="Memories(PagalNew.Com.Se).mp3"></audio>
+        <div class="controls">
+            <button id="prev-btn">⏮️</button>
+            <button id="play-btn">▶️</button>
+            <button id="pause-btn">⏸️</button>
+            <button id="next-btn">⏭️</button>
+        </div>
+        <div class="progress-container">
+            <input type="range" id="progress-bar" value="0">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
